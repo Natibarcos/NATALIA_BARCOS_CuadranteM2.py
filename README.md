@@ -1,12 +1,16 @@
 ##Encontrar el cudrante (Sistema Cartesiano)
 
 ##En este bloque determinamos el tipo de cuadrante
+
+
 def determinar_cuadrante(x,y):
     if x > 0 and y >0:
         return "Cuadrante I" ##Ingresa en esta opcion cuando ambos valores son positivos (+ , +)
     elif x < 0 and y > 0:
+    
         return "Cuadrante II" ##Ingresa en esta opcion cuando el valor es negativo y el otro positivo (- , +)
     elif x < 0 and y < 0:
+    
         return "Cuadrante III" ##Ingresa en esta opcion cuando ambos valores son negativos (- , -)
     elif x > 0 and y < 0:
         return "Cuadrante IV" ##Ingresa en esta opcion cuando el valor es positivo y el otro negativo (+ , -)
