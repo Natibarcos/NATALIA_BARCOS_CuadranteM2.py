@@ -4,6 +4,7 @@
 
 
 def determinar_cuadrante(x,y):
+    
     if x > 0 and y >0:
         return "Cuadrante I" ##Ingresa en esta opcion cuando ambos valores son positivos (+ , +)
         
